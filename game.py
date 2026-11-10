@@ -55,7 +55,7 @@ def main():
             print("Win!")
             break
     
-    if n == 8:  # All 9 cells have been filled (n goes 0 to 8)
+    else:  # All nine turns completed without a win
         print("Tie!")
     
     # Show the game to console
